@@ -26,5 +26,5 @@ const generateFakeuserData=(num)=>{
 }
 const user_fakeData=generateFakeuserData(50)
 
-fs.writeFileSync("store_fake_user_data.json",JSON.stringify(user_fakeData,null,2))
+fs.writeFileSync("store_data.json",JSON.stringify(user_fakeData,null,2))
 console.log("fake json user data is created sucessfully")
